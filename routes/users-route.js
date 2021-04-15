@@ -7,6 +7,7 @@ router.get('/', usersController.getAllUsers)
   .post('/', (req, res) => {
 
   })
-  .put('/:id/deposit', usersController.deposit);
+  .put('/:id/deposit', usersController.deposit)
+  .put('/:id/setcredit', usersController.setcredit);
 
 module.exports = router;
