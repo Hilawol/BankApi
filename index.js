@@ -8,7 +8,6 @@ const usersRoute = require('./routes/users-route');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
 app.use('/bank/users', usersRoute);
 
 app.listen(port, () => {
